@@ -1,0 +1,12 @@
+.card{
+    background-color: rgba(216, 28, 122, 0.205);/*fondo blanco*/
+    border-radius: 15px;/*bordes redondeados*/ 
+    padding: 20px;/*espaciado interno*/
+
+}
+.image{
+    width: 100%; /*ancho completo*/
+    height: 180px; /*altura fija*/
+    /*mantener la proporcion de la imagen*/
+    object-fit: contain
+}

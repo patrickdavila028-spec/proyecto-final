@@ -1,0 +1,16 @@
+input{
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 10px;
+    /*elimina el contorno predeterminado*/
+    outline: none;
+}
+
+/*cuando el usuario seleccione el input*/
+.input:focus{
+    /*cambia el borde a azul*/
+    border-color: blue;
+
+}

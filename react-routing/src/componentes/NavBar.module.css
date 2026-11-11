@@ -1,0 +1,37 @@
+.navbar{
+    /* color de fondo */
+    background-color: #970a405b;
+
+    /*agrega espacio interno 20px arriba y abajo, 40px a los lados*/
+    padding: 20px 40px;
+    /*activa flexbos permite organizar los elementos de manera horizontal*/
+    display: flex;
+    /*distribuye los elementos horizontalmente dejando del mayor  espacio posible entre ellos
+    espacio posible entre ellos. en nuestro caso home products about contact*/
+    justify-content: space-between;
+    /*alinea verticalmente los elementos al centro de la barra de navegación*/
+    align-items: center;
+
+}
+
+
+.links{
+    display: flex;
+    /*crea 20px , medida de pantalla,espacio entre cada enlace de navegación*/
+    gap: 20 px;
+
+}
+
+.link{
+    color: white;
+    /*elimina el subrayado de los enlaces*/
+    text-decoration: none;
+    /*define el tamaño de la fuente o la letra*/
+    font-size: 16px;
+
+}
+
+.link:hover{
+    /*cambia el color del enlace cuando el usuario pasa el cursor sobre él*/
+    color: #2aa0b4;
+}
